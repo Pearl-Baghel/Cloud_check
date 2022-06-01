@@ -93,8 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
     private void getWeatherForNewCity(String city)
     {
         RequestParams params=new RequestParams();
@@ -103,8 +101,6 @@ public class MainActivity extends AppCompatActivity {
         letsdoSomeNetworking(params);
 
     }
-
-
 
 
     private void getWeatherForCurrentLocation() {
